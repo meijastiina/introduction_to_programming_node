@@ -8,8 +8,7 @@ process.stdout.write( "\n This program converts meters to other units of" +  "\n
 
 // Create an event handler to listen for on event for stdin
 // User input will be carried in inputFromUser
-process.stdin.on( "data", function( inputFromUser )
-{
+process.stdin.on( "data", function( inputFromUser ) {
        // The statements below will be executed automatically after
        // the user has typed in the value.
 
