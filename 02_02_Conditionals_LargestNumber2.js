@@ -1,5 +1,7 @@
-
-//  Modified from LargestNumber.js (c) Kari Laitinen http://www.naturalprogramming.com
+/* 2.2 Task 2: Largest Number v.0.2
+Extend the program from previous task to ask for three numbers.
+Modified from LargestNumber.js (c) Kari Laitinen http://www.naturalprogramming.com
+*/
 
 // Let's ask user for three numbers separated by spaces
 process.stdout.write( "\n This program can find the largest of three\n numbers you enter from the keyboard.\n Please, enter three numbers separated\n with single space characters :  " ) ;

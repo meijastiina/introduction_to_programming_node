@@ -1,5 +1,8 @@
 
-//  Modified from LargestNumber.js (c) Kari Laitinen http://www.naturalprogramming.com
+/* 2.1 Task 1: Largest Number v.0.1
+Create a simple program in which the user is asked to give two numbers and then your program prints out which one of them is largest.
+Modified from LargestNumber.js (c) Kari Laitinen http://www.naturalprogramming.com
+*/
 
 // Let's ask user for three numbers separated by spaces
 process.stdout.write( "\n This program can find the largest of two\n numbers you enter from the keyboard.\n Please, enter two numbers separated\n with single space characters :  " ) ;
