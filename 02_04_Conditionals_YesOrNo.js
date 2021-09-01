@@ -1,5 +1,8 @@
 
-//  Modified from Likejavascript.js (c) Kari Laitinen http://www.naturalprogramming.com
+/*2.4 Task 4: Yes or No
+Write a simple program that asks user a simple yes or no question and prints out a corresponding message. Remember to also handle invalid input.
+Modified from Likejavascript.js (c) Kari Laitinen http://www.naturalprogramming.com
+*/
 
 // Let's ask user a simple yes or no question
 process.stdout.write( "\nAre you younger than 18?\nPlease, answer Y or N :  " ) ;

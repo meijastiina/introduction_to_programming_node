@@ -1,5 +1,8 @@
-
-//  Modified from Evenodd.js (c) Kari Laitinen http://www.naturalprogramming.com
+/*2.3 Task 3: Even or Odd
+Write a simple program to figure out whether a given number is even or odd. 
+Hint! You can use modulo (%) to achieve this.
+Modified from Evenodd.js (c) Kari Laitinen http://www.naturalprogramming.com
+*/
 
 // Let's ask for a number
 process.stdout.write("\nThis program can find out whether a number\nis even or odd. Please, give a number: " );
