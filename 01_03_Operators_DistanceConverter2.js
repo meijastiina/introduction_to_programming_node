@@ -17,7 +17,7 @@ Modified from Distance.js (c) Kari Laitinen  http://www.naturalprogramming.com
 const util = require( "util" ) ; 
 
 // Print out a message asking for user input
-process.stdout.write( "\n This program converts meters to other units of" +  "\n distance. Please, enter a distance in meters:  " ) ;
+process.stdout.write( "\n This program converts meters to other units of\n distance. Please, enter a distance in meters:  " ) ;
 
 // Create an event handler to listen for on event for stdin
 // User input will be carried in inputFromUser
@@ -45,13 +45,13 @@ process.stdin.on( "data", function(inputFromUser){
 
        process.stdout.write( "\n " + distanceInMeters + " meters is: \n\n" );
 
-       process.stdout.write(util.format( "\t%s kilometers\n", distanceInKilometers.toFixed(3)));
-       process.stdout.write(util.format( "\t%s miles \n", distanceInMiles.toFixed(3)));
-       process.stdout.write(util.format( "\t%s yards \n", distanceInYards.toFixed(3)));
+       process.stdout.write(util.format( "%s kilometers\n", distanceInKilometers.toFixed(3).toString().padStart(20, " ")));
+       process.stdout.write(util.format( "%s miles\n", distanceInMiles.toFixed(3).toString().padStart(20, " ")));
+       process.stdout.write(util.format( "%s yards\n", distanceInYards.toFixed(3).toString().padStart(20, " ")));
 
-       process.stdout.write(util.format( "\t%s feet  \n\t%s  inches \n", distanceInFeet.toFixed(3), distanceInInches.toFixed(3)));
+       process.stdout.write(util.format( "%s feet\n%s inches\n", distanceInFeet.toFixed(3).toString().padStart(20, " "), distanceInInches.toFixed(3).toString().padStart(20, " ")));
 
-       process.stdout.write(util.format( "\t%s light years \n\n", Number.parseFloat(distanceInLightYears).toFixed(3)));
+       process.stdout.write(util.format( "%s light years\n\n", Number.parseFloat(distanceInLightYears).toFixed(3).toString().padStart(20, " ")));
 
        process.exit() ;
 } ) ;
