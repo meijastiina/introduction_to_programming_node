@@ -35,7 +35,7 @@ process.stdin.on("data", function(inputFromUser) {
     ]
 
     // Let's print out the result
-    process.stdout.write( "\n The largest number is " + foundLargestNumber ".\n\n");
+    process.stdout.write( "/n The largest number is " + foundLargestNumber ".\n\n");
 
     // Let's end the process
     process.exit() ;
