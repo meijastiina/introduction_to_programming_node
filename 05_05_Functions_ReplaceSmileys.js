@@ -30,6 +30,6 @@ function replaceSmileys(text) {
     return newString;
 }
 function replaceSmileysWithReplacer(text, replacer) {
-    let regexp = /([:|;]+[)|(])|<3/g
+    let regexp = /([:;]+[)(])|<3/g
     return text.replace(regexp, replacer);
 }
